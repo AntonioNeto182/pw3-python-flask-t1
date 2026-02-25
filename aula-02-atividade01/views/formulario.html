@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Games</title>
+</head>
+<body>
+    <h1>Sua build no Cyberpunk</h1>
+    <hr>
+
+    <h2>Formulário - Build Favorita no Cyberpunk 2077</h2>
+
+    <form action="/resposta" method="POST">
+
+        <label>1) Qual é a sua build favorita?</label><br>
+        <input type="text" name="build_favorita" required>
+        <br><br>
+
+        <label>2) Qual atributo você mais prioriza?</label><br>
+        <input type="text" name="atributo_principal" required>
+        <br><br>
+
+        <label>3) Qual arma você mais usa nessa build?</label><br>
+        <input type="text" name="arma_favorita" required>
+        <br><br>
+
+        <label>Você zerou o jogo com essa build?</label><br>
+        <input type="radio" name="zerou" value="Sim" required> Sim
+        <input type="radio" name="zerou" value="Não"> Não
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>
